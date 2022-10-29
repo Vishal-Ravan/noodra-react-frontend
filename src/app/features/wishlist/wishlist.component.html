@@ -1,0 +1,20 @@
+<div class="tab">
+    <div class="tabs">
+        <h1 class="mainTitle icon-favoris icon">favoris</h1>
+        <ul>
+            <li id="mission" [class.color]="id === 'mission'" (click)="tabChange('mission')">Articles favoris<span
+                    class="number">4</span></li>
+            <li id="vision" [class.color]="id === 'vision'" (click)="tabChange('vision')">Boutiques favorites<span
+                    class="number">1</span></li>
+        </ul>
+        <div class="content">
+            <div class="content-value" *ngIf="id === 'mission'">
+                <app-articles-wishlist></app-articles-wishlist>
+            </div>
+            <div class="content-values" *ngIf="id === 'vision'">
+                <app-store-wishlist></app-store-wishlist>
+            </div>
+
+        </div>
+    </div>
+</div>

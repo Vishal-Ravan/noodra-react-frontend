@@ -1,0 +1,175 @@
+/* .box {
+    border: 1px solid #c1c1c1;
+    border-radius: 0.3125rem;
+    color: #4e4e4e;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.boxTitle h2 {
+    font-family: HelveticaNeue;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    margin-bottom: 0;
+}
+
+
+.boxTitle {
+    background: #efefef;
+    padding: 0.3125rem 1.25rem;
+    border-bottom: 0.0625rem solid #c1c1c1;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    color: #4e4e4e;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.boxContent {
+    padding: 1.125rem 1.25rem 0.9375rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.infolang {
+    font-size: .975rem;
+    font-weight: 700;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.span {
+    color: #d75a4a;
+}
+
+.half {
+    display: flex;
+    align-items: center;
+}
+
+.radioButton {
+    width: 18px;
+    height: 18px;
+}
+
+.radioLabel {
+    margin-left: 15px;
+    margin-right: 3.125rem;
+    font-size: .975rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.infoAdd {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+
+.infoAddLabel {
+    font-size: .875rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0;
+
+}
+
+.infoAdd .inputInfo1 {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #c1c1c1;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: transparent;
+    margin-top: 10px;
+    outline: none;
+    font-size: 13px;
+}
+
+.infoMultipleAdd {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.infoMultiple {
+    width: 20%;
+}
+
+.infoMultiple1 {
+    width: 40%;
+    padding-left: 10px;
+}
+
+.infoMultiple2 {
+    width: 40%;
+    padding-left: 10px;
+}
+
+.infoMulLabel {
+    font-size: .875rem;
+    font-weight: 700;
+    display: block;
+}
+
+input {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #c1c1c1;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: transparent;
+    margin-top: 10px;
+    outline: none;
+    font-size: 13px;
+    margin-top: -5px;
+} */
+
+.terms-second-step {
+    border: 1px solid #c1c1c1;
+    border-radius: 0.3125rem;
+    color: #4e4e4e;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.terms-second-step-heading {
+    background: #efefef;
+    padding: 0.3125rem 1.25rem;
+    border-bottom: 0.0625rem solid #c1c1c1;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    color: #4e4e4e;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-second-step-heading h4 {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.terms-second-step-wrapper {
+    padding: 20px;
+}
+
+.terms-input {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

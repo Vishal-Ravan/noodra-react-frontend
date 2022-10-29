@@ -1,0 +1,14 @@
+
+<ul class="tabs">
+    <li class=" icon-commandes" [class.color]="id === 'commandes'" #compte (click)="tab('commandes')" routerLink="setting">Commandes
+    </li>
+    <li class=" icon-litiges" [class.color]="id === 'litiges'" #adresse (click)="tab('litiges')" routerLink="setting">
+        Litiges
+    </li>
+</ul>
+<div *ngIf="id === 'commandes'" class="tab-navigation-content ">
+    <app-detail-command></app-detail-command>
+</div>
+<div *ngIf="id === 'litiges'" class="tab-navigation-content">
+    <app-litiges></app-litiges>
+</div>

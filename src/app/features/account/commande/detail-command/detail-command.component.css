@@ -1,0 +1,57 @@
+.tabs {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    position: relative;
+}
+
+.tab {
+    padding: 25px;
+    width: 100%;
+}
+
+ul li {
+    color: #777;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.color {
+    border-bottom: 2px solid #1125ba;
+}
+
+.box {
+    border: 0.0625rem solid #c1c1c1;
+    position: absolute;
+    width: 68%;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    height: 200px;
+}
+
+.icon-commandes {
+    padding: 0 3rem;
+}
+
+.icon-litiges {
+    padding: 0 3rem;
+}
+
+.command-wrapper {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.commands-paragraph {
+    text-align: center;
+    background-color: #1125ba;
+    color: #f8c43d;
+    font-size: 16px;
+    font-family: Helvetica;
+    width: 20rem;
+    margin-top: 50px;
+}

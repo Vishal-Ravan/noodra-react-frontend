@@ -1,0 +1,513 @@
+.home {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter {
+    margin: 210px 0px 335px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 39px;
+}
+
+.filter-left {
+    text-align: right;
+}
+
+.filter-right {
+    padding-left: 110px;
+
+}
+
+.filter-button {
+    color: #8e8e8e;
+    padding: 12px;
+    text-decoration: none;
+    background: #f0f0f0 url(/assets/compass.svg) no-repeat 0;
+    height: 2rem;
+    background-size: 2.6rem;
+    padding-left: 4rem;
+    border-radius: 3.125rem;
+    border: 0.0625rem solid #f0f0f0;
+    padding-right: 0.9375rem;
+    font-family: HelveticaNeueLight;
+    font-size: 16px;
+    transition: all .5s ease;
+}
+
+.filter-button:hover {
+    border-color: #f8c43d;
+    background-color: #fff;
+}
+
+.about {
+    background: url(/assets/banner1.png) no-repeat 0;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-size: cover;
+
+}
+
+.texth2 {
+    font-size: 1.875rem;
+    text-align: center;
+    line-height: 2.5rem;
+    padding-bottom: 1.875rem;
+    color: #fff;
+    font-family: 'HelveticaNeueThin';
+    font-weight: 600;
+}
+
+.about a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: HelveticaNeue-ThinItalic;
+    font-size: 1.25rem;
+    line-height: 1.3125rem;
+    margin-bottom: 3.125rem;
+}
+
+.about a:hover {
+    text-decoration: none;
+
+}
+
+.aboutSection {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+.aboutSectionLeft {
+    width: 26%;
+}
+
+.textLefth4 {
+    font-size: 16px;
+    line-height: 1.6875rem;
+    text-transform: uppercase;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: HelveticaNeueLight;
+}
+
+.textLeftp {
+    font-size: .875rem;
+    color: #fff;
+    font-family: HelveticaNeueLight;
+}
+
+.aboutSectionCenter {
+    width: 26%;
+}
+
+.textCenterh4 {
+    font-size: 16px;
+    line-height: 1.6875rem;
+    text-transform: uppercase;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.textCenterp {
+    font-size: .875rem;
+    color: #fff;
+}
+
+.aboutSectionRight {
+    width: 26%;
+}
+
+.textRighth4 {
+    font-size: 16px;
+    line-height: 1.6875rem;
+    text-transform: uppercase;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.textRightp {
+    font-size: .875rem;
+    color: #fff;
+}
+
+.aboutTexth2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    color: #fff;
+    font-family: HelveticaNeueMedium;
+}
+
+.buttonSection {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonSection button {
+    padding: 0 2.5rem;
+    border-radius: 3.125rem;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: HelveticaNeueLight;
+    text-align: center;
+    height: 2.375rem;
+    line-height: 2.1875rem;
+    font-size: 1rem;
+    background-color: transparent;
+    transition: all .5s ease
+}
+
+.buttonSection button:hover {
+    box-shadow: inset 0 -3rem 0 #f8c43d;
+}
+
+.sellar {
+    background: url(/assets/back-vendeur.jpg) repeat scroll;
+    min-height: 31.25rem;
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+
+.sellarHeading {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    text-transform: uppercase;
+    color: #1125ba;
+    margin-top: 15px;
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+}
+
+.sellarUl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+.stellarli {
+    display: block;
+    font-family: HelveticaNeueLight;
+    font-size: .875rem !important;
+    line-height: 2.625rem;
+    margin-bottom: 5px;
+    padding-left: 13rem;
+    color: #1125ba;
+}
+
+.stellarli img {
+    margin-right: 15px;
+}
+
+.sellarparagraphFir {
+    text-align: center;
+    font-family: HelveticaNeueLight;
+    font-size: .875rem !important;
+    line-height: 2.625rem;
+    color: #1125ba;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.sellarparagraphSec {
+    text-align: center;
+    font-family: HelveticaNeueLight;
+    font-size: .875rem !important;
+    line-height: 2.625rem;
+    margin-bottom: 1.25rem;
+    color: #1125ba;
+}
+
+.abonnement {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.abonnement::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3.75rem;
+    z-index: 1;
+    -webkit-box-shadow: -0.5rem 0.9375rem 0.625rem hsl(0deg 0% 47% / 20%) inset;
+    -moz-box-shadow: -.5rem .9375rem .625rem hsla(0, 0%, 47%, .2) inset;
+    box-shadow: inset -0.5rem 0.9375rem 0.625rem hsl(0deg 0% 47% / 20%);
+}
+
+.abonnement:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3.75rem;
+    z-index: 1;
+    -webkit-box-shadow: -0.5rem 0.9375rem 0.625rem hsl(0deg 0% 47% / 20%) inset;
+    -moz-box-shadow: -.5rem .9375rem .625rem hsla(0, 0%, 47%, .2) inset;
+    box-shadow: inset -0.5rem 0.9375rem 0.625rem hsl(0deg 0% 47% / 20%);
+}
+
+
+.abonnementLeft {
+    width: 50%;
+    height: 400px;
+    background: #f8c43d;
+    padding-top: 4rem;
+
+}
+
+.abonnementLeftHeading {
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.5625rem;
+    padding-bottom: 3.125rem;
+}
+
+.abonnementLeftParagraph {
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 2.1875rem;
+    padding-bottom: 3.75rem;
+    text-align: center;
+    width: 70%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.abonnementLeftbuttonSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.abonnementLeftbuttonSection button {
+    border-radius: 3.125rem;
+    color: #fff;
+    font-family: HelveticaNeueLight;
+    text-align: center;
+    height: 2.375rem;
+    line-height: 2.1875rem;
+    font-size: 1rem;
+    border: 1px solid#0620c0;
+    background: #0620c0;
+    transition: all .5s ease;
+    padding: 0 3.75rem;
+}
+
+.abonnementLeftbuttonSection button:hover {
+    color: green;
+    box-shadow: inset 0 -3rem 0 #f8c43d;
+}
+
+.abonnementRight {
+    width: 50%;
+    height: 400px;
+
+}
+
+.abonnementRightImg {
+    width: 100%;
+    height: 400px;
+
+}
+
+.newsletter {
+    padding-bottom: 9.375rem;
+    padding-top: 1.875rem;
+}
+
+.newslettertittle:after {
+    content: "";
+    position: absolute;
+    right: 174px;
+    top: -14px;
+    width: 6.25rem;
+    height: 6.25rem;
+    background: url(/assets/newsletter.svg) no-repeat scroll;
+    background-size: 100%
+}
+
+.newslettertittle {
+
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    padding-bottom: 1.875rem;
+    width: 100%;
+    margin: 0 auto;
+    color: #0620c0;
+    position: relative;
+}
+
+.newsletterForm {
+    border-radius: 3.125rem;
+    background: #f5f5f5;
+    height: 2.6875rem;
+    position: relative;
+    box-shadow: 0 0.125rem 0.25rem hsl(0deg 0% 47% / 80%);
+    max-width: 37.5rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.newsletterInput {
+    padding: 0 1.25rem;
+    font-family: HelveticaNeueLight;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    background-color: transparent;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.newsletterButton {
+    width: 30%;
+    background: #0620c0;
+    color: #fff;
+    border-radius: 0 3.125rem 3.125rem 0;
+    border: 0.0625rem solid #0620c0;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    font-size: 1.125rem;
+    cursor: pointer;
+
+}
+
+.crouselSection {
+    padding-bottom: 9.375rem;
+    padding-top: 1.875rem;
+}
+
+.crouselheading {
+    color: #f8c43d;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.5625rem;
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+    padding-bottom: 2.5rem;
+
+}
+
+.picsum-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.picsum-img-wrapper img {
+    height: 300px;
+    width: 90%;
+    object-fit: cover;
+}
+
+/* Owl crousel***** */
+.crousel-main {
+    margin: 1rem 0;
+    width: 75% !important;
+}
+
+.crousel-box-owl {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.new-title {
+    color: #f8c43d;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.5625rem;
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+.slide{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.title-product{
+    font-family: HelveticaNeueLight;
+    color: #4e4e4e;
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    font-weight: 300;
+    padding-bottom: 11px;
+}
+.price{
+    font-family: HelveticaNeue-ThinItalic;
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    padding: 0.625rem 0;
+    margin: 0;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+    position:  relative !important;
+    top: 0% !important;
+}
+::ng-deep .owl-dots{
+    position: relative !important;
+    top: 2px !important;
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot  {
+    background: #D6D6D6 !important;
+    /* dots color*/
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover  {
+    background: #FCAC45 !important;
+    /*active and on hover color*/
+}
+.owl-theme .owl-nav [class*=owl-]{
+    background-color: #f8c43d !important;
+    display: none;
+}
+
+.image-crousel {
+    width: 100% !important;
+    height: 260px !important;
+
+}
+.image-crousel:hover {
+    opacity: .5;
+}
+
+
+
+.owl-carousel-o.crousel-owl.main-crousel .owl-nav.ng-star-inserted {
+    position: absolute !important;
+    top: 41% !important;
+}
+

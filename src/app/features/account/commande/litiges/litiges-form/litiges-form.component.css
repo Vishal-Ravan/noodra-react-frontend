@@ -1,0 +1,83 @@
+.ng-container {
+    padding: 15px;
+}
+
+.litiges-form-heading {
+    color: #4e4e4e;
+    margin: 0rem;
+}
+
+.label {
+    color: #4e4e4e;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.desc-filled {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+
+
+.selection-field {
+    width: 100%;
+}
+
+i.fal.fa-image {
+    font-size: 36px;
+    color: #f8c43d;
+    display: flex;
+    align-items: center;
+}
+
+i.fal.fa-image span {
+    font-size: 16px;
+    margin-left: 10px;
+}
+.hints{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.star{
+    color: red;
+}
+.button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.button-first{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: #1228ab;
+    margin: 0px 7.5px;
+    border-radius: 30px;
+    padding: 0 3.8rem;
+    border-radius: 3.125rem;
+    color: #fff;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    text-align: center;
+    height: 2.375rem;
+    font-size: 16px;
+}
+::ng-deep .button-second{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: #1228ab;
+    margin: 0px 7.5px;
+    border-radius: 30px;
+    padding: 0 3.8rem;
+    border-radius: 3.125rem;
+    color: #fff;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    text-align: center;
+    height: 2.375rem;
+    font-size: 16px;
+}

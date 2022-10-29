@@ -1,0 +1,40 @@
+<app-amount-credit></app-amount-credit>
+
+<div class="box">
+    <div class="box-title">
+        <h4>Paiement</h4>
+    </div>
+    <div class="box-content">
+        <div class="box-radio">
+            <mat-radio-group aria-label="Select an option" class="radio-flex">
+                <mat-radio-button value="1" class="radio1"><img src="assets/pay-card.png" alt=""></mat-radio-button>
+                <mat-radio-button value="2" class="radio2"><img src="assets/pay-paypal.jpg" alt=""></mat-radio-button>
+            </mat-radio-group>
+        </div>
+        <div class="input-field-wallet">
+            <form class="example-form">
+                <mat-form-field class="example-full-width" appearance="fill" class="input-field-credit">
+                    <mat-label>N DE CARTE <span>*</span></mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </form>
+            <form class="form-date-code">
+                <mat-form-field class="date-field-width " appearance="fill">
+                    <mat-label>DATE D'EXPIRATION <span>*</span></mat-label>
+                    <input matInput placeholder="yyyy-MM-dd">
+                </mat-form-field>
+                <mat-form-field class="code-field-width" appearance="fill">
+                    <mat-label>Code <span>*</span></mat-label>
+                    <input matInput #postalCode maxlength="5" placeholder="Ex. 94105">
+                </mat-form-field>
+            </form>
+        </div>
+        <mat-radio-group aria-label="Select an option">
+            <mat-radio-button value="1" class="label-select"><label class="label-radio">J'accepte et reconnais avoir
+                    pris connaissance des <a href="">conditions générales d'utilisation.</a></label></mat-radio-button>
+        </mat-radio-group>
+
+    </div>
+
+</div>
+<button mat-raised-button class="submit-button">payer</button>

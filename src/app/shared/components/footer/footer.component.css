@@ -1,0 +1,142 @@
+.footer {
+    color: #1125ba;
+    background: #f2f2f2;
+    padding-top: 3.125rem;
+    position: relative;
+}
+
+.footer_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 50rem;
+    margin-left: 85px;
+
+}
+
+.footer_item--title {
+    font-family: HelveticaNeueMedium;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    padding-bottom: 1.25rem;
+    margin-left: 2rem;
+}
+
+.footer_item ul li {
+    list-style: none;
+}
+
+.footer_item ul li a {
+    display: inline-block;
+    color: #1125ba;
+    font-family: HelveticaNeueThin;
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    margin-bottom: 0.625rem;
+    text-decoration: none;
+    position: relative;
+
+}
+.footer_item ul li a:hover::after{
+    width: 100%;
+}
+.footer_item ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.1875rem;
+    height: 0.0625rem;
+    width: 0;
+    background: #1125ba;
+    margin: 0 auto;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer .reseaux {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2.5rem;
+}
+
+.footer .reseaux a {
+    display: inline-block;
+    margin-right: 1.25rem;
+    transition: all .5s ease;
+}
+
+.footer_bottom {
+    background: #1125ba;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 0 3.125rem hsl(0deg 0% 47% / 80%);
+}
+
+.footer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -7.5rem;
+    height: 7.5rem;
+    background: url(/assets/back-footer.png) no-repeat;
+    background-size: cover;
+
+}
+.fa{
+    font-size: 1.875rem;
+    color: #f8c43d;
+    transition: all .5s ease;
+}
+.fa:hover{
+    color: #1125ba;
+}
+.footer_bottom .footer_bottom_wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.footer_bottom .footer_bottom_wrapper .show-modal {
+    width: 50%;
+}
+
+.footer_bottom .footer_bottom_wrapper .show-modal ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    padding-top: 24px;
+    align-items: center;
+}
+
+.footer_bottom .footer_bottom_wrapper .show-modal ul li {
+    padding: 0 10px;
+}
+
+.coprightRight {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.coprightRight ul {
+    display: flex;
+    list-style: none;
+    padding-top: 24px;
+
+}
+
+.coprightRight ul li {
+    padding: 10px;
+    position: relative;
+}
+.li-border::after{
+    content: "|";
+    position: absolute;
+    color: #fff;
+    padding-left: 7px;
+}

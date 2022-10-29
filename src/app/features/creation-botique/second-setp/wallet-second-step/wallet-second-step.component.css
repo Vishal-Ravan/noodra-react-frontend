@@ -1,0 +1,202 @@
+/* .box {
+    border: 1px solid #c1c1c1;
+    border-radius: 0.3125rem;
+    color: #4e4e4e;
+    width: 100%;
+}
+
+.box_title {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-size: .875rem;
+    display: flex;
+    background: #efefef;
+    padding: 0.3125rem 1.25rem;
+    border-bottom: 0.0625rem solid #c1c1c1;
+    -moz-border-radius: .3125rem .3125rem 0 0;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    color: #4e4e4e;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box_title h2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.box_content {
+    padding: 0.3125rem 1.25rem;
+    background-color: white;
+}
+
+.selector {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.selectordiv {
+    display: flex;
+    width: 40%;
+}
+
+.bold {
+    width: 40%;
+    font-weight: 600;
+}
+
+.require {
+    color: #d75a4a
+}
+
+input {
+    outline: none;
+}
+
+.radioMale {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.radioMale input {
+    width: 15px;
+    height: 15px;
+}
+
+.radioFemale {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.radioFemale input {
+    width: 15px;
+    height: 15px;
+}
+
+.txtRadio {
+    margin-left: 15px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.infoLeft {
+    width: 50%;
+}
+
+.bolder {
+    font-weight: 600;
+    display: block;
+}
+
+.infoLeft input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 0 5px;
+    width: 98%;
+}
+
+.infoRight {
+    width: 50%;
+}
+
+.infoRight input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 0 5px;
+    width: 100%;
+}
+
+.dropDown {
+    margin-bottom: 40px;
+}
+
+.form-select {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    font-size: 16px;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 0;
+    background-image: url(/assets/down.png);
+    background-size: contain;
+    padding: 0;
+}
+.form-select:focus {
+    border-color: #c1c1c1;
+    outline: 0;
+    box-shadow: none;
+} */
+
+.wallet-second {
+    border: 1px solid #c1c1c1;
+    border-radius: 0.3125rem;
+    color: #4e4e4e;
+    width: 100%
+}
+
+.wallet-second-heading {
+    background: #efefef;
+    padding: 0.3125rem 1.25rem;
+    border-bottom: 0.0625rem solid #c1c1c1;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    color: #4e4e4e;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-second-heading h4 {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.wallet-second-wrapper {
+    padding: 0 20px 10px 20px;
+}
+
+.wallet-input {
+    width: 34%;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    padding: 0;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-subscript-wrapper {
+    padding: 0 !important;
+    margin-top: 2px !important;
+}
+
+::ng-deep .mat-form-field-subscript-wrapper {
+    padding: 0 !important;
+    margin-top: 2px !important;
+}
+
+
+::ng-deep .mat-form-field-empty.mat-form-field-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4e4e4e;
+}
+
+::ng-deep .mat-hint {
+    color: #4b4a4a;
+    font-size: .75rem;
+}

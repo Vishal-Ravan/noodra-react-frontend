@@ -1,0 +1,214 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeue.eot);
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeue.eot);
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeue.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeue.woff) format("woff"), url(./assets/Fonts/HelveticaNeue/HelveticaNeue.ttf) format("truetype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeue.svg#HelveticaNeue) format("svg")
+}
+
+@font-face {
+    font-family: HelveticaNeueLight;
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueLight.eot);
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueLight.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueLight.woff) format("woff"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueLight.ttf) format("truetype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueLight.svg#HelveticaNeueLight) format("svg")
+}
+
+@font-face {
+    font-family: HelveticaNeueMedium;
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueMedium.eot);
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueMedium.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueMedium.woff) format("woff"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueMedium.ttf) format("truetype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueMedium.svg#HelveticaNeueMedium) format("svg")
+}
+
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueBold.eot);
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueBold.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueBold.woff) format("woff"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueBold.ttf) format("truetype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueBold.svg#HelveticaNeueBold) format("svg")
+}
+
+@font-face {
+    font-family: HelveticaNeueThin;
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueThin.eot);
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeueThin.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueThin.woff) format("woff"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueThin.ttf) format("truetype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeueThin.svg#HelveticaNeueThin) format("svg")
+}
+
+@font-face {
+    font-family: HelveticaNeue-ThinItalic;
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeue-ThinItalic.eot);
+    src: url(./assets/Fonts/HelveticaNeue/HelveticaNeue-ThinItalic.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeue-ThinItalic.woff) format("woff"), url(./assets/Fonts/HelveticaNeue/HelveticaNeue-ThinItalic.ttf) format("truetype"), url(./assets/Fonts/HelveticaNeue/HelveticaNeue-ThinItalic.svg#HelveticaNeue-ThinItalic) format("svg")
+}
+
+@font-face {
+    font-family: PhotographSignature;
+    src: url(./assets/Fonts/HelveticaNeue/PhotographSignature.eot);
+    src: url(./assets/Fonts/HelveticaNeue/PhotographSignature.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/HelveticaNeue/PhotographSignature.woff) format("woff"), url(./assets/Fonts/HelveticaNeue/PhotographSignature.ttf) format("truetype"), url(./assets/Fonts/HelveticaNeue/PhotographSignature.svg#PhotographSignature) format("svg")
+}
+
+
+@font-face {
+    font-family: Font Awesome\ 5 Brands;
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(./assets/Fonts/fa-brands-400.eot);
+    src: url(./assets/Fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/fa-brands-400.woff2) format("woff2"), url(./assets/Fonts/fa-brands-400.woff) format("woff"), url(./assets/Fonts/fa-brands-400.ttf) format("truetype"), url(./assets/Fonts/fa-brands-400.svg#fontawesome) format("svg")
+}
+
+@font-face {
+    font-family: Font Awesome\ 5 Pro;
+    src: url(./assets/Fonts/fa-light-300.eot);
+
+    src: url(./assets/Fonts/fa-light-300.eot?#iefix) format("embedded-opentype"), url(./assets/Fonts/fa-light-300.woff2) format("woff2"), url(./assets/Fonts/fa-light-300.woff) format("woff"), url(./assets/Fonts/fa-light-300.ttf) format("truetype"), url(./assets/Fonts/fa-light-300.svg#fontawesome) format("svg");
+    font-style: normal;
+    font-weight: 300;
+    font-display: block
+}
+
+.fab {
+    font-family: Font Awesome\ 5 Brands;
+    font-weight: 400
+}
+
+.fal {
+    font-family: Font Awesome\ 5 Pro;
+    font-weight: 300
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    line-height: 1.5;
+    font-size: 23px;
+    color: #d4d4d4;
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -.0667em
+}
+
+.fa-xs {
+    font-size: .75em
+}
+
+.fa-sm {
+    font-size: .875em
+}
+
+.fa-1x {
+    font-size: 1em
+}
+
+.fa-2x {
+    font-size: 2em
+}
+
+.fa-3x {
+    font-size: 3em
+}
+
+.fa-4x {
+    font-size: 4em
+}
+
+.fa-5x {
+    font-size: 5em
+}
+
+.fa-6x {
+    font-size: 6em
+}
+
+.fa-7x {
+    font-size: 7em
+}
+
+.fa-8x {
+    font-size: 8em
+}
+
+.fa-9x {
+    font-size: 9em
+}
+
+.fa-10x {
+    font-size: 10em
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em
+}
+
+.fa-ul {
+    list-style-type: none;
+    margin-left: 2.5em;
+    padding-left: 0
+}
+
+.fa-ul>li {
+    position: relative
+}
+
+.fa-li {
+    left: -2em;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit
+}
+
+.fa-border {
+    border: .08em solid #eee;
+    -moz-border-radius: .1em;
+    border-radius: .1em;
+    padding: .2em .25em .15em
+}
+
+.fa-pull-left {
+    float: left
+}
+
+.fa-pull-right {
+    float: right
+}
+
+.fa.fa-pull-left,
+.fab.fa-pull-left,
+.fal.fa-pull-left,
+.far.fa-pull-left,
+.fas.fa-pull-left {
+    margin-right: .3em
+}
+
+.fa.fa-pull-right,
+.fab.fa-pull-right,
+.fal.fa-pull-right,
+.far.fa-pull-right,
+.fas.fa-pull-right {
+    margin-left: .3em
+}
+
+.fa-spin {
+    -webkit-animation: c 2s linear infinite;
+    -moz-animation: c 2s linear infinite;
+    -o-animation: c 2s linear infinite;
+    animation: c 2s linear infinite
+}
+
+.fa-pulse {
+    -webkit-animation: c 1s steps(8) infinite;
+    -moz-animation: c 1s steps(8) infinite;
+    -o-animation: c 1s steps(8) infinite;
+    animation: c 1s steps(8) infinite
+}

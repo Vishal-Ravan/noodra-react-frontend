@@ -1,0 +1,75 @@
+.event-wrapper {
+    margin-bottom: 1rem;
+}
+
+.event-head {
+    border: 0.0625rem solid #c1c1c1;
+    border-bottom: none;
+    background-color: #efefef;
+    border-radius: 0.625rem 0.625rem 0 0;
+    margin: 0;
+}
+
+.event-head h4 {
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .425rem 1em;
+    margin: 0;
+    color: #777;
+}
+
+.event-data {
+    border: 0.0625rem solid #c1c1c1;
+    border-radius: 0 0 0.625rem 0.625rem;
+
+}
+
+.event-data h3 {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #4e4e4e;
+}
+
+.mui-input {
+    margin: 20px !important;
+    width: 400px !important;
+    position: relative;
+}
+
+.mui-input::after {
+    content: "euro";
+    position: absolute;
+    right: 0;
+    top: 0.875rem;
+    font-size: 1rem;
+    color: #4e4e4e;
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+}
+
+.radio-button {
+    padding: 20px;
+}
+
+.radio-button span {
+    display: block;
+    padding-top: 0.3125rem;
+    color: #4e4e4e;
+}
+
+.mat-radio {
+    margin-bottom: 20px;
+}
+
+.mat-radio-1 {
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: 700;
+    font-size: .87rem;
+    color: #4e4e4e;
+}

@@ -1,0 +1,126 @@
+.head-wallet {
+    justify-content: space-between;
+    padding: 0.625rem 1.25rem;
+    background: #efefef;
+    border: 0.0625rem solid #c1c1c1;
+    color: #4e4e4e;
+    margin-bottom: 1.875rem;
+    display: flex;
+}
+
+.head-wallet .title {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.title {
+    display: block;
+    text-align: center;
+}
+
+.headWallet .price strong {
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+}
+
+.color {
+    cursor: pointer;
+    background: #efefef !important;
+}
+
+.tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-transaction {
+    display: inline-flex;
+    background: none;
+    color: #777;
+    padding: 0.625rem;
+    cursor: pointer;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    position: relative;
+    font-size: 1rem;
+    flex-basis: 23.75rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 0.625rem 0.625rem 0 0;
+    border: 0.0625rem solid #c1c1c1;
+    border-bottom: none;
+}
+
+.tabs li i {
+    padding-right: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.tabs li:first-child i {
+    color: #1125ba;
+}
+
+
+.icon-transfert {
+    display: inline-flex;
+    background: none;
+    color: #777;
+    padding: 0.625rem;
+    cursor: pointer;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    position: relative;
+    font-size: 1rem;
+    flex-basis: 23.75rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 0.625rem 0.625rem 0 0;
+    border: 0.0625rem solid #c1c1c1;
+    border-bottom: none;
+}
+
+.tabs li i {
+    padding-right: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.tabs li:nth-child(2) i {
+    color: #f8c43d;
+}
+
+.icon-crediter {
+    display: inline-flex;
+    background: none;
+    color: #777;
+    padding: 0.625rem;
+    cursor: pointer;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    position: relative;
+    font-size: 1rem;
+    flex-basis: 23.75rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 0.625rem 0.625rem 0 0;
+    border: 0.0625rem solid #c1c1c1;
+    border-bottom: none;
+}
+
+.tabs li i {
+    padding-right: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.tabs li:last-child i {
+    color: #42a084;
+}
+
+.tab-navigation-content {
+    /* display: none; */
+    border: 1px solid #c1c1c1;
+    padding: 10px;
+}

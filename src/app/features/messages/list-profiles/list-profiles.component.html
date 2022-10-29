@@ -1,0 +1,75 @@
+<div class="conversations">
+    <h3 class="subTitle">CONVERSATIONS</h3>
+    <app-search-profile></app-search-profile>
+    <ng-container>
+        <div class="message-wrapper">
+            <ul class="masages-tabs">
+                <li class="contact" [class.color]="id === 'commandes'" #compte (click)="tab('commandes')"
+                    routerLink="messages/conversation">
+                    <ng-container>
+                        <div class="user-name">
+                            <div class="circle-name">
+                                <h3>TT</h3>
+                            </div>
+                        </div>
+                        <div class="message-description">
+                            <h3>TT Test Testeur</h3>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        </div>
+                    </ng-container>
+
+                </li>
+                <li class="contact" [class.color]="id === 'commandes'" #compte (click)="tab('commandes')"
+                    routerLink="messages/conversation">
+                    <ng-container>
+                        <div class="user-name">
+                            <div class="circle-name-diffrent">
+                                <h3>TT</h3>
+                            </div>
+                        </div>
+                        <div class="message-description">
+                            <h3>TT Test Testeur</h3>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        </div>
+                    </ng-container>
+
+                </li>
+                <li class="contact" [class.color]="id === 'commandes'" #compte (click)="tab('commandes')"
+                routerLink="messages/conversation">
+                    <ng-container>
+                        <div class="user-name">
+                            <div class="circle-name">
+                                <h3>TT</h3>
+                            </div>
+                        </div>
+                        <div class="message-description">
+                            <h3>TT Test Testeur</h3>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        </div>
+                    </ng-container>
+
+                </li>
+                <li class="contact" [class.color]="id === 'commandes'" #compte (click)="tab('commandes')"
+                routerLink="messages/conversation">
+                    <ng-container>
+                        <div class="user-name">
+                            <div class="circle-name-diffrent">
+                                <h3>TT</h3>
+                            </div>
+                        </div>
+                        <div class="message-description">
+                            <h3>TT Test Testeur</h3>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        </div>
+                    </ng-container>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </ng-container>
+</div>
+<div class="detailConersation">
+    <app-conversation *ngIf="id==='commandes'" ></app-conversation>
+</div>

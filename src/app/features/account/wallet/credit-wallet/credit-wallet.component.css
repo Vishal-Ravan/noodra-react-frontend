@@ -1,0 +1,91 @@
+.box {
+    border: 1px solid #c1c1c1;
+    border-radius: 0.3125rem;
+    color: #4e4e4e;
+    width: 100%;
+}
+
+.box-content {
+    padding: 0 20px;
+}
+
+.box-title {
+    background: #efefef;
+    padding: 0.3125rem 1.25rem;
+    border-bottom: 0.0625rem solid #c1c1c1;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+}
+
+.box-title h4 {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-size: .875rem;
+    margin: 0;
+    color: #4e4e4e;
+
+}
+
+.box-radio {
+    padding: 30px 0;
+}
+
+.radio-flex {
+    display: flex;
+}
+
+.radio1 {
+    width: 50%;
+}
+
+.radio2 {
+    width: 50%;
+}
+
+.label-radio {
+    font-size: .875rem !important;
+    cursor: pointer;
+}
+
+.label-select {
+    padding-bottom: 20px !important;
+}
+
+.label-select a {
+    text-decoration: none;
+    color: #9a1a99;
+}
+
+.input-field-credit {
+    width: 100%;
+}
+
+.form-date-code {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.date-field-width {
+    width: 48%;
+}
+
+.code-field-width {
+    width: 48%;
+}
+
+.submit-button {
+    width: 100%;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.1875rem;
+    color: #fff;
+    font-family: HelveticaNeueMedium;
+    font-weight: 500;
+    border: 1px solid #42a084;
+    -moz-border-radius: .3125rem;
+    border-radius: 0.3125rem;
+    background: #42a084;
+    transition: all .5s ease;
+    margin-top: 20px;
+    cursor: pointer;
+}

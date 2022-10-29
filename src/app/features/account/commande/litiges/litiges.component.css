@@ -1,0 +1,43 @@
+.litiges-box{
+    border: 0.0625rem solid #c1c1c1;
+    position: absolute;
+    width: 97%;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    height: 200px;
+    position: inherit;
+}
+.litiges-wrapper{
+    width: 100%;
+    display: flex;
+    padding: 50px 15px;
+}
+.mat-dialog-container{
+    border-radius: 10px !important;
+}
+.fa-plus{
+    width: 50%;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 1000;
+    font-size: 20px;
+    cursor: pointer;
+    color: green;
+    text-align: center;
+}
+.litiges-paragraph{
+    text-align: center;
+    width: 50%;
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 600;
+}
+.litiges-paragraph-second{
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 600;
+}
+.tab-navigation-content.ng-star-inserted {
+    height: 300px;
+}

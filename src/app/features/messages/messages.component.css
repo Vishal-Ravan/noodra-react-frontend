@@ -1,0 +1,31 @@
+.section-message {
+    margin: 9rem 0;
+    max-width: 87.5rem;
+    width: 100%;
+    padding-bottom: 9.375rem;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list-profile{
+    display: flex;
+}
+/* .container-massages {
+    display: flex;
+} */
+/* 
+.conversations {
+    background: #fdfdfd;
+    border-right: 0.125rem solid #1125ba;
+    flex: 1;
+    padding: 1.25rem 1.25rem 1.25rem 0;
+    position: relative;
+    padding: 1.25rem 0;
+}
+
+.detailConersation {
+    flex: 3;
+    padding: 1.25rem 1.25rem 1.25rem 0;
+    position: relative;
+    flex-direction: column;
+} */

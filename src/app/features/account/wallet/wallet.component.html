@@ -1,0 +1,37 @@
+<div class="head-wallet">
+    <h3 class="title">Portefeuille </h3>
+    <div class="price">
+        balance:
+        <ng-container>
+            <strong>0 €</strong>
+        </ng-container>
+        <ng-template>
+            <strong>--.-</strong>
+        </ng-template>
+    </div>
+</div>
+<div>
+    <div class="wallet-tabs">
+        <ul class="tabs">
+            <li class=" icon-transaction" [class.color]="id === 'transaction'" #compte (click)="tab('transaction')"
+                routerLink="wallet"> <i class="fal fa-history"></i>Transaction
+            </li>
+            <li class=" icon-transfert" [class.color]="id === 'transfert'" #Transfert (click)="tab('transfert')"
+                routerLink="wallet"><i class="fal fa-sort"></i>
+                Transfert
+            </li>
+            <li class=" icon-crediter" [class.color]="id === 'crediter'" #crediter (click)="tab('crediter')"
+                routerLink="wallet"><i class="fal fa-money"></i>
+                Créditer mon portefeuille
+            </li>
+        </ul>
+        <div *ngIf="id === 'transaction'" class="tab-navigation-content ">
+            <app-transaction></app-transaction>
+        </div>
+        <div *ngIf="id === 'transfert'" class="tab-navigation-content">
+            <app-transfert></app-transfert>
+        </div>
+        <div *ngIf="id === 'crediter'" class="tab-navigation-content">
+            <app-credit-wallet></app-credit-wallet>
+        </div>
+    </div>

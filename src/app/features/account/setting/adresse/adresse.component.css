@@ -1,0 +1,15 @@
+.wrapperBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 47px;
+}
+.box{
+    width: 49%;
+    justify-content: space-between;
+}
+.boxs{
+    width: 100%;
+    margin-top: 15px;
+}

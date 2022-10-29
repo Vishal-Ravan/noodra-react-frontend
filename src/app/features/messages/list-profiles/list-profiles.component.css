@@ -1,0 +1,176 @@
+.subTitle {
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+    color: #1125ba;
+    font-size: .875rem;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 2.5rem;
+}
+
+.subTitle:before {
+    content: "\f4b6";
+    font-family: Font Awesome\ 5 Pro;
+    left: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1125ba;
+    font-size: 1rem;
+}
+
+.subTitle:after {
+    content: "";
+    position: absolute;
+    width: 3.125rem;
+    height: 0.125rem;
+    background: #f8c43d;
+    left: 0;
+    bottom: -0.3125rem;
+}
+
+.tabs {
+    min-height: 35vh;
+    max-height: 35vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block !important;
+}
+
+li.contact .user {
+    float: none;
+    display: inline-flex;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+    min-height: 35vh;
+    max-height: 35vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block!important;
+    /* background: #1125ba; */
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 75%;
+    left: 40px;
+    background: #dedede;;
+
+}
+
+.user-name {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-name {
+    background-color: #1125ba;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-name-diffrent {
+    background-color: #f8c43d;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-name-diffrent h3 {
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+    font-size: .875rem;
+    color: white;
+    position: relative;
+    top: 4px;
+}
+
+.circle-name h3 {
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+    font-size: .875rem;
+    color: white;
+    position: relative;
+    top: 4px;
+}
+
+.message-description {
+    width: 80%;
+}
+
+.message-description h3 {
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    font-size: .875rem;
+    color: #4e4e4e;
+}
+
+.message-description h4 {
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    font-size: .875rem;
+    color: #777;
+    line-height: 1.125rem;
+}
+
+.conversations {
+    background: #fdfdfd;
+    border-right: 0.125rem solid #1125ba;
+    flex: 1;
+    padding: 1.25rem 1.25rem 1.25rem 0;
+    position: relative;
+    padding: 1.25rem 0;
+}
+
+.detailConersation {
+    flex: 3;
+    /* padding:  20px; */
+    position: relative;
+    flex-direction: column;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1125ba; 
+    /* border-radius: 10px; */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1125ba; 
+  }

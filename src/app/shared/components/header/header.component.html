@@ -1,0 +1,119 @@
+<header id="header">
+    <div class="topBanner">
+        MARKETPLACE OF TRADITIONAL AND MODERN CRAFTS FROM THE WORLD
+        <ul class="language">
+            <li class="fr mgr10" title="Français"></li>
+            <li class="en" title="English"> </li>
+            <h2></h2>
+        </ul>
+    </div>
+    <div class="hearder_content">
+        <div class="wrapperLeft">
+            <h1 class="wrapperLefth1">
+                <a routerLink="/home">
+                    <img [src]="url" alt="" class="wrapperLeftImg">
+                </a>
+            </h1>
+        </div>
+        <div class="wrapperRight">
+            <form action="#" id="search">
+                <input type="text" placeholder="Do your research here">
+                <button> <i class=" fal fa-search "></i></button>
+            </form>
+            <div class="icons">
+                <a routerLink="/shop" class="shop" *ngIf=" isValid">Sell On Noodra</a>
+                <a *ngIf="!isValid">
+                    <div class="dropdown">
+                        <button class="dropbtn">Gestionnaire de boutique</button>
+                        <div class="dropdown-content">
+                          <a routerLink="/boutique" href="#"><i class="fal fa-plus"></i>
+                            Ajouter une nouvelle boutique
+                        </a>
+                          <a href="#">
+                            <i class="fal fa-store"></i>
+                            Noodra boutique
+                        </a>
+                         </div>
+                      </div></a>
+                <a routerLink="/wishlist" class="link icon wishlist">
+                    <i class="fal fa-heart "></i>
+                </a>
+                <a class="shop" *ngIf="isValid" (click)="openpop()">To log in</a>
+                <div ngbDropdown>
+                    <a class="shop" ngbDropdownToggle *ngIf="!isValid"><i class="fal fa-user"></i></a>
+                    <ul ngbDropdownMenu>
+                        <li class="avatar" ngbDropdownItem>
+                            <i class="fa fal fa-user-circle iconAvtar"></i>
+                            <div class="mgl10">
+                                <strong class="fullName">Test Test
+                                </strong> Votre profile
+                            </div>
+                        </li>
+                        <li ngbDropdownItem>
+                            <a class="a" routerLink="account">
+                                <i class="fal fa-sliders iconss"></i>
+                                Paramètres du compte
+                            </a>
+                        </li>
+                        <li ngbDropdownItem>
+                            <a class="a">
+                                <i class="fal fa-cart-arrow-down iconss"></i>Commandes et avis
+                            </a>
+                        </li>
+                        <li ngbDropdownItem>
+                            <a class="a">
+                                <i class="fal fa-wallet iconss"></i>
+                                Portefeuille (0 €)
+                            </a>
+                        </li>
+                        <li ngbDropdownItem>
+                            <a class="a" routerLink="messages">
+                                <i class="fal fa-comment iconss"></i>
+                                <span class="wrapperNbr">Messages</span>
+                            </a>
+                        </li>
+                        <li ngbDropdownItem>
+                            <a class="a" (click)="remove() " routerLink="home">
+                                <i class="fal fa-sign-out iconss"></i>
+                                Se déconnecter
+                            </a>
+                        </li>
+                    </ul>
+                 </div>
+                <a class="link icon wishlist"><i class="fal fa-shopping-basket"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="headerBottom">
+        <ul>
+            <li class="onHover"><a class="ab">Promtion</a></li>
+            <li *ngFor="let category of head " class="onHover">
+                <a href="" class="ab" (mouseover)="onhoverAll(category.id)">{{category.translations.fr.name}}</a>
+                <ul class="promotion">
+                    <li class="sub-category">
+
+                        <div class="sub-category-image" *ngIf="category.image!=null">
+                            <img src={{category.image}} alt="" class="image-header">
+                            <h3 class="title-menu">{{category.translations.fr.slug}}</h3>
+                            <p class="desc-sub-menu">{{category.translations.fr.description}}</p>
+                        </div>
+                        <div class="sub-category-list">
+                            <ul class="category-list-wrapper">
+                                <li class="ul-category-li" *ngFor="let itemtwos of items">
+                                    <a class="li-a"
+                                        *ngIf="category.id === itemtwos.parent ">{{itemtwos.translations.fr.name}}
+                                <li  *ngFor="let subsubitems of subsubCatItems">
+                                    <a class="sub-subcategory" href="" *ngIf="subsubitems.id ===subsubitems.name ">{{subsubitems}}</a>
+                                </li>
+                                </a>
+                    </li>
+                </ul>
+    </div>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </div>
+</header>

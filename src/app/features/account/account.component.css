@@ -1,0 +1,190 @@
+.section {
+    margin-bottom: 13rem;
+    margin-top: 14rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon-account:before {
+    content: "\f3f1";
+}
+
+.icon:before {
+    position: absolute;
+    top: 0 !important;
+    font-size: 1rem;
+    font-family: Font Awesome\ 5 Pro;
+    color: #f8c43d;
+    left: 10px;
+}
+
+.mainTitle {
+    color: #1125ba;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.375rem;
+    line-height: 2.5625rem;
+    font-family: HelveticaNeueBold;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    position: relative;
+    margin-left: 1.875rem;
+}
+
+.icon-signout:before {
+    content: "\f08b";
+}
+
+.icon:before {
+    position: absolute;
+    top: 50%;
+    font-size: 1rem;
+    font-family: Font Awesome\ 5 Pro;
+    color: #f8c43d;
+}
+
+.mainTitle:before {
+    left: -1.875rem !important;
+}
+
+.mainTitle:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 3.125rem;
+    height: 0.1875rem;
+    background: #f8c43d;
+    bottom: 0;
+}
+
+.wrapper-account {
+    display: flex;
+}
+
+.left-navigation {
+    flex: 1;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding-right: 2.5rem;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.tab-navigation {
+    -moz-border-radius: .3125rem;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #c1c1c1;
+    -webkit-flex-basis: 15.625rem;
+    -ms-flex-preferred-size: 15.625rem;
+    flex-basis: 15.625rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.color {
+    cursor: pointer;
+    background: #efefef;
+    color: #1125ba !important;
+}
+
+.color li:hover {
+    color: #1125ba !important;
+}
+
+ul li {
+    padding: 0;
+    cursor: pointer;
+    color: #4e4e4e;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    position: relative;
+}
+
+.icon-setting {
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-wallet {
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-command {
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-signout {
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-command:before {
+    content: "\f218";
+    font-family: 'Font Awesome 5 Pro';
+    color: #f8c43d;
+    margin-right: 11px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.icon-setting:before {
+    content: "\f3f1";
+    font-family: 'Font Awesome 5 Pro';
+    color: #f8c43d;
+    margin-right: 11px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.icon-wallet:before {
+    content: "\f555";
+    font-family: 'Font Awesome 5 Pro';
+    color: #f8c43d;
+    margin-right: 11px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.icon-signout:before {
+    content: "\f08b";
+    font-family: 'Font Awesome 5 Pro';
+    color: #f8c43d;
+    margin-right: 11px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+li:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background: #efefef;
+    z-index: -1;
+    top: 0;
+}
+
+/* right side */
+
+.right-content {
+    flex: 3;
+    margin-top: 1.875rem;
+}

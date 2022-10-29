@@ -1,0 +1,44 @@
+.transfert-wallet {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.compete {
+    background: #42a084 !important;
+    border-color: #42a084 !important;
+    box-shadow: none;
+    padding: 0 2.5rem;
+    border-radius: 3.125rem;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    text-align: center;
+    height: 2.375rem;
+    line-height: 2.1875rem;
+    font-size: 1rem;
+}
+
+.transfert {
+    border-color: #fff;
+    background: #1125ba;
+    box-shadow: none;
+    padding: 0 2.5rem;
+    border-radius: 3.125rem;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    text-align: center;
+    height: 2.375rem;
+    line-height: 2.1875rem;
+    font-size: 1rem;
+}
+.transfert-heading{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+    color: #4e4e4e;
+}

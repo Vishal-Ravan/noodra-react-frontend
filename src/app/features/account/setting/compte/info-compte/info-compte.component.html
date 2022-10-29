@@ -1,0 +1,55 @@
+<div class="profile-info">
+    <span class="profile-header-wrapper">
+        <h4 class="profile-heading">A propos de vous</h4>
+    </span>
+    <div class="profile-wrapper">
+        <p class="profile-first-paregraph">Image de profil</p>
+        <img src="/assets/userprofile.png" class="user-profile-image" alt="">
+        <p class="profile-second-paregraph">Ta photo de profil</p>
+        <form>
+            <div class="material-input-field">
+                <mat-form-field appearance="fill" floatLabel="auto">
+                    <mat-label>First Name <span class="star">*</span></mat-label>
+                    <input matInput>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Last Name <span class="star">*</span></mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </div>
+            <div class="material-phone-field">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Phone <span class="star">*</span></mat-label>
+                    <span matPrefix>+1 &nbsp;</span>
+                    <input type="tel" matInput placeholder="555-555-1234">
+                    <mat-hint align="start">Enter phone number<span class="star">*</span></mat-hint>
+                    <!-- <mat-icon matSuffix>mode_edit</mat-icon> -->
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Gender <span class="star">*</span> </mat-label>
+                    <mat-select>
+                        <mat-option value="option">Male</mat-option>
+                        <mat-option value="option1">Female</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="material-date-field">
+                <mat-form-field appearance="fill">
+                    <mat-label>Birth Date</mat-label>
+                    <input matInput [matDatepicker]="picker">
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Language <span class="star">*</span></mat-label>
+                    <mat-select>
+                        <mat-option value="option">Hindi</mat-option>
+                        <mat-option value="option1">English</mat-option>
+                    </mat-select>
+                </mat-form-field>
+
+            </div>
+            <button mat-raised-button color="primary">Modifier</button>
+        </form>
+    </div>
+</div>

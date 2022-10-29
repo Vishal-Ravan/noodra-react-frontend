@@ -1,0 +1,103 @@
+.creation_account {
+    width: 100%;
+    background-color: white;
+    margin: 12rem 0;
+    padding: 0 3rem;
+}
+
+.container {
+
+    display: flex;
+    max-width: 100rem;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.steps {
+    /* max-width: 62.5rem; */
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
+}
+
+.steps_list {
+    /* border-top: 0.125rem solid #1125ba; */
+
+    display: flex;
+    padding-top: 1.25rem;
+    position: relative;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.steps_list li.current {
+    text-decoration: underline;
+}
+
+.steps_list li {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    font-family: HelveticaNeueLight;
+    font-weight: 300;
+    position: relative;
+    color: #4e4e4e;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.steps_list li:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -2.0625rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    border: 0.125rem solid #1125ba;
+    background: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.tab-steps-content.current {
+    display: block;
+}
+
+.color::after  {
+    background-color: #1125ba !important;
+}
+
+.blueLine {
+    width: 80%;
+    height: 1px;
+    background-color: #1125ba;
+}
+
+.blueLine {
+    width: 63%;
+    height: 2px;
+    opacity: 1;
+    background-color: #1125ba;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: -32px;
+    top: -3px;
+}

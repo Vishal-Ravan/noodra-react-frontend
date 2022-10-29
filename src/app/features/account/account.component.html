@@ -1,0 +1,32 @@
+<section class="section" id="account">
+    <div class="container-account">
+        <h1 class="icon icon-account mainTitle">COMMANDES ET AVIS</h1>
+        <div class="wrapper-account">
+            <div class="left-navigation">
+                <ul class="tab-navigation">
+                    <li class=" icon-command" [class.color]="id === 'setting'" #setting (click)="tab('setting')"
+                        routerLink="setting"> Paramètres</li>
+                    <li class="icon-setting" [class.color]="id === 'command'" #command (click)="tab('command')">
+                        Commandes et avis
+                    </li>
+                    <li class=" icon-wallet" [class.color]="id === 'wallet'" #wallet (click)="tab('wallet')">
+                        Portefeuille (0 €)</li>
+                    <li class="icon-signout" (click)="tab('logout')" #logout [class.color]="id === 'logout'">Se
+                        déconnecter</li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <div *ngIf="id === 'setting'" class="tab-navigation-content ">
+                    <app-setting></app-setting>
+                </div>
+                <div *ngIf="id === 'command'" class="tab-navigation-content">
+                    <app-commande></app-commande>
+                </div>
+                <div *ngIf="id === 'wallet'" class="tab-navigation-content">
+                    <app-wallet></app-wallet>
+                    <!-- <h1>4444444444444444444444</h1> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

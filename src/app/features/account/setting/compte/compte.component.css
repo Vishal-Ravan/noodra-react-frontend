@@ -1,0 +1,8 @@
+.wrapper-Box{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 49%;
+}

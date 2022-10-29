@@ -1,0 +1,74 @@
+.write-message {
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+    border-top: 0.125rem solid #1125ba;
+    position: relative;
+    background: #fff;
+
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-start .alignment {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+}
+
+.mat-form-field.mat-form-field-appearance-legacy .mat-form-field-underline {
+    border: none !important;
+}
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+    border-radius: 0px !important;
+    border: none !important;
+}
+
+.textarea-message {
+    width: 80%;
+}
+
+.image-gallery {
+
+    outline: none !important;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 5px;
+}
+
+.image-gallery i {
+    font-size: 1.975rem;
+    cursor: pointer;
+    color: #f8c43d;
+}
+
+.image-gallery i:hover {
+    font-size: 1.975rem;
+    cursor: pointer;
+    color: #1125ba;
+    transition: all .5s ease;
+}
+
+.send {
+    outline: none !important;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+}
+
+.send i {
+    font-size: 1.975rem;
+    cursor: pointer;
+    color: #1125ba;
+}
+.send i:hover {
+    font-size: 1.975rem;
+    cursor: pointer;
+    color: #f8c43d;
+
+    transition: all .5s ease;
+}

@@ -1,0 +1,23 @@
+<div class="tab">
+    <ul class="tabs">
+        <li class=" icon-commandes" [class.color]="id === 'commandes'" #compte (click)="tab('commandes')"
+            routerLink="setting">Commandes acheteur
+        </li>
+        <li class=" icon-litiges" [class.color]="id === 'litiges'" #adresse (click)="tab('litiges')"
+            routerLink="setting">
+            Commandes venndure
+        </li>
+    </ul>
+    <span class="box">
+        <div *ngIf="id === 'commandes'" class="tab-navigation-content ">
+            <div class="command-wrapper">
+                <p class="commands-paragraph">Vous n' avez aucun commandes venndures</p>
+            </div>
+        </div>
+        <div *ngIf="id === 'litiges'" class="tab-navigation-content">
+            <div class="command-wrapper">
+                <p class="commands-paragraph">Vous n' avez aucun commandes venndure</p>
+            </div>
+        </div>
+    </span>
+</div>
